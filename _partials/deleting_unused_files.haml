@@ -1,0 +1,22 @@
+.container
+    .jumbotron.subhead
+        %h1 Packaging your map
+        %p.lead Final touches needed to release your map.
+    %section
+        .row
+            = partial('modules_sidebar')
+            .col-sm-9
+                .page-header
+                    %h1Deleting unused files
+					:markdown
+						So, now that your map is properly pruned, you now need to remove the unused files. All you need to do is open your **saves** folder and your map's folder.
+						Your map folder should look like this:
+						![folder before .png](/img/folder_before.png)
+						Now, for OCN, you don't need all of these folder. Start off by removing the **##MCEDIT.TEMP##** folder which stores the temporary files used by MCEdit.
+						Also delete the **data** folder which isn't useful as well as the **DIM** folders.
+						You may also remove the **stats** and **players** folders.
+						You may only keep the **regions** folder as a folder.				
+						Now, you also need to delete some of these unused files. Basically delete everything except the **level.dat** file.						
+						In the end, the only folders and files that can be found in your map folder are the **region** folder and the **level.dat** file as shown on this picture:
+						![folder after .png](/img/folder_after.png)
+						`Note:`You're about there, but you're not done yet!						
