@@ -1,0 +1,28 @@
+.container
+    .jumbotron.subhead
+        %h1 Packaging your map
+        %p.lead Final touches needed to release your map.
+    %section
+        .row
+            = partial('modules_sidebar')
+            .col-sm-9
+                .page-header
+                    %h1Pruning your map
+					:markdown
+						Pruning your map is a process you shouldn't forget.
+						It is very easy to do.
+						Just follow these steps:
+						- Download MCEDit [here](http://www.mcedit.net). MCEdit is a free software that will allow you to do some world editing or just simply prune your map.
+						- Open MCEdit after it is downloaded. Put your world folder into your saves folder.
+						- To access your saves folder, just open an explorer and type in the navigation bar **%appdata%/.minecraft**. Then open the folder **saves** and drag in your map folder.
+						`Note:` This will work for windows only, for macs, type this in: **~/Library/Application Support/minecraft**.
+						- Then, come back to MCEdit and click on the **Load world...** button and click on your world.
+						- You're world will show up in MCEdit. Note that it is hard to navigate through MCEdit in the beginning, but you'll get used to it.
+						- You have automaticly selected the selection tool. Now just select your whole map by clicking and draging your mouse from one corner to the other.
+						It should end up looking kind of like this:
+						![Selected region .png](/img/selected_region.png) 
+						- Then hit the chunk control button:
+						![Chunk control button .png](/img/chunk_control.png) 
+						- And hit prune. `Note:`We would recommend you to save a copy of you map in case you fail this step. :
+						![Prune button .png](/img/prune_button.png) 
+						- Now that your map is pruned, you can save it with `CTRL+S` and exit MCEdit.
