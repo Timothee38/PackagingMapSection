@@ -1,0 +1,22 @@
+.container
+    .jumbotron.subhead
+        %h1 Packaging your map
+        %p.lead Final touches needed to release your map.
+    %section
+        .row
+            = partial('modules_sidebar')
+            .col-sm-9
+                .page-header
+                    %h1Checking your XML
+					:markdown
+						Checking your XML can be an important part before you actually upload it. Indeed, you may have failed with the **syntax**.
+						You may want to fix your XML in order to be as nice as possible with the map developpers that already have **a lot** to do.
+						`Note:` You should do this before you continue.
+						
+						To check your XML, we recommend you use the w3 school's XML validator that can be found [here](http://www.w3schools.com/xml/xml_validator.asp).
+						Simply copy your XML and paste it in the **Syntax-Check Your XML** text area and hit the validate button.
+						
+						It will tell you if it has found any errors with the **line number**.
+						
+						Fix your XML and repeat the operation until it says **no errors found**.
+
