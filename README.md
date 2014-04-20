@@ -1,4 +1,4 @@
 PackagingMapSection
 ===================
 
-working on the packaging map section for docs.oc.tc
+Here we'll work on a packaging map section for the docs.oc.tc 
